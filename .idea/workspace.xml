@@ -2,7 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ee7f96-bd1d-408a-93cd-10ee78240b36" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$4$$anonfun$apply$11.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$chunkify$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$chunkify$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$flattenSeqSeqSlide$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$flattenSeqSeqSlide$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$1$$anonfun$apply$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$2$1$$anonfun$apply$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$2$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$3$1$$anonfun$apply$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$3$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$3$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$4$1$$anonfun$apply$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$4$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$4$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$1$$anonfun$apply$10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$lowPassFilterBinsWithTresholds$1$1$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$lowPassFilterBinsWithTresholds$1$1$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$lowPassFilterBinsWithTresholds$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$vectorize$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$vectorize$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$12$$anonfun$apply$13$$anonfun$apply$15.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$12$$anonfun$apply$13.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$12.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$lowPassFilter$1$1$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$lowPassFilter$1$1$$anonfun$apply$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$lowPassFilter$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$1$$anonfun$apply$16.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1$$anonfun$apply$8$$anonfun$apply$9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1$$anonfun$apply$8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$writeStreamToFile$1$1$$anonfun$apply$17.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$writeStreamToFile$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$writeStreamToFile$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$backendImplicits$2$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$backendImplicits$2$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$namedACG$2$$anon$1$$anon$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$namedACG$2$$anon$1$$anon$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$namedACG$2$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$namedACG$2$$anon$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$namedACG$2$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$namedACG$2$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$threadFactoryFactoryProxyBeanFactory$2$$anon$3$$anon$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$threadFactoryFactoryProxyBeanFactory$2$$anon$3$$anon$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$threadFactoryFactoryProxyBeanFactory$2$$anon$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$threadFactoryFactoryProxyBeanFactory$2$$anon$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$threadFactoryFactoryProxyBeanFactory$2$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$threadFactoryFactoryProxyBeanFactory$2$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/fs2cyborgpreprocessing_2.11-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/fs2cyborgpreprocessing_2.11-0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/fs2cyborgpreprocessing_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/fs2cyborgpreprocessing_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/fs2cyborgpreprocessing_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/fs2cyborgpreprocessing_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +112,8 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -35,10 +122,10 @@
       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="243" column="23" lean-forward="true" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
+            <state relative-caret-position="322">
+              <caret line="714" column="63" lean-forward="true" selection-start-line="714" selection-start-column="63" selection-end-line="714" selection-end-column="63" />
               <folding>
-                <element signature="e#3620#3645#0" expanded="true" />
+                <element signature="e#3766#3791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,25 +135,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tickSource</find>
-      <find>readCSV</find>
-      <find>jobuan</find>
-      <find>chunkif</find>
-      <find>cats.effect</find>
-      <find>InetSocketAddress</find>
-      <find>toDoub</find>
-      <find>implicit</find>
-      <find>ec</find>
-      <find>seq</find>
-      <find>.through(_.</find>
-      <find>flatmap</find>
-      <find>_.map</find>
-      <find>throu</find>
-      <find>Double</find>
-      <find>lowPassFilterBinsWithTresholds</find>
       <find>noiseAttenuationdb</find>
       <find>stridedSeqSeqSlideForLowPassFiltering</find>
-      <find>lowPassFilter</find>
       <find>chunkify</find>
       <find>case None</find>
       <find>++</find>
@@ -75,7 +145,30 @@
       <find>Some((segment</find>
       <find>butterfilter</find>
       <find>slice</find>
+      <find>treshold</find>
+      <find>influence</find>
+      <find>lowPassFilterFromSeqSeq</find>
+      <find>lowpassfilter</find>
+      <find>startf</find>
+      <find>lowPassFilter</find>
+      <find>lowPassFilterBinsWithTresholds</find>
+      <find>detectActionPotentialsInBins</find>
+      <find>noiseReduce</find>
+      <find>debugg</find>
+      <find>deb</find>
+      <find>debu</find>
+      <find>detectActionPotentialsInBinsWithTresholdsAndLowPassFilter</find>
+      <find>tresholds</find>
+      <find>noiseReduceBinsWithTresholds</find>
+      <find>readCSVToSlidingWindows</find>
+      <find>detectActionPotentials</find>
+      <find>detectActionPotentialsAndLowPassFilter</find>
+      <find>detectActionPotentialsInBinsWithTresholds</find>
+      <find>detectAndSumActionPotentialsInSlidingWindow</find>
     </findStrings>
+    <replaceStrings>
+      <replace>noiseReduceBinsWithTresholds</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -341,18 +434,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="243" column="23" lean-forward="true" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
+        <state relative-caret-position="322">
+          <caret line="714" column="63" lean-forward="true" selection-start-line="714" selection-start-column="63" selection-end-line="714" selection-end-column="63" />
           <folding>
-            <element signature="e#3620#3645#0" expanded="true" />
+            <element signature="e#3766#3791#0" expanded="true" />
           </folding>
         </state>
       </provider>

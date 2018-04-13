@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180412154247"/>
+		date="20180413124638"/>
 	<dependencies>
 		<module organisation="net.sourceforge.jtransforms" name="jtransforms">
 			<revision name="2.4.0" status="release" pubdate="20120616160957" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jtransforms/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
@@ -47,9 +47,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686">
-			<revision name="1.1" status="release" pubdate="20131011224118" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="38">
+			<revision name="1.1" status="release" pubdate="20131011224118" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="38">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="5271" time="75" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7542" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_system-win-i686" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="561459" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/jars/netlib-native_system-win-i686-1.1-natives.jar">
@@ -59,9 +59,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64">
-			<revision name="1.1" status="release" pubdate="20131011224207" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="37">
+			<revision name="1.1" status="release" pubdate="20131011224207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="37">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="5130" time="78" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7546" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_system-win-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="637428" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/jars/netlib-native_system-win-x86_64-1.1-natives.jar">
@@ -71,9 +71,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf">
-			<revision name="1.1" status="release" pubdate="20131011233120" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="36">
+			<revision name="1.1" status="release" pubdate="20131011233120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="36">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="4780" time="73" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7973" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_system-linux-armhf" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="310891" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/jars/netlib-native_system-linux-armhf-1.1-natives.jar">
@@ -83,9 +83,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686">
-			<revision name="1.1" status="release" pubdate="20131011233027" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="35">
+			<revision name="1.1" status="release" pubdate="20131011233027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="35">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="4869" time="73" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7971" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_system-linux-i686" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="435365" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/jars/netlib-native_system-linux-i686-1.1-natives.jar">
@@ -95,9 +95,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64">
-			<revision name="1.1" status="release" pubdate="20131011232927" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="34">
+			<revision name="1.1" status="release" pubdate="20131011232927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="34">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3930" time="76" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7975" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_system-linux-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="458605" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/jars/netlib-native_system-linux-x86_64-1.1-natives.jar">
@@ -107,9 +107,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64">
-			<revision name="1.1" status="release" pubdate="20131011224035" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="32">
+			<revision name="1.1" status="release" pubdate="20131011224035" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="32">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3912" time="83" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7552" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_system-osx-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="553993" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/jars/netlib-native_system-osx-x86_64-1.1-natives.jar">
@@ -119,9 +119,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="native_system-java">
-			<revision name="1.1" status="release" pubdate="20131011223956" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+			<revision name="1.1" status="release" pubdate="20131011223956" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3988" time="74" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/native_system-java/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/native_system-java/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7688" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/native_system-java/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
 				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
 				<caller organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
@@ -136,9 +136,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf">
-			<revision name="1.1" status="release" pubdate="20131011231624" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="31">
+			<revision name="1.1" status="release" pubdate="20131011231624" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="31">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3897" time="77" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7533" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_ref-linux-armhf" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="1208080" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/jars/netlib-native_ref-linux-armhf-1.1-natives.jar">
@@ -148,9 +148,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686">
-			<revision name="1.1" status="release" pubdate="20131011223716" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="30">
+			<revision name="1.1" status="release" pubdate="20131011223716" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="30">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="4471" time="74" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7102" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_ref-win-i686" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="1826785" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/jars/netlib-native_ref-win-i686-1.1-natives.jar">
@@ -160,9 +160,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-x86_64">
-			<revision name="1.1" status="release" pubdate="20131011223904" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="29">
+			<revision name="1.1" status="release" pubdate="20131011223904" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="29">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="4378" time="75" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7106" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_ref-win-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="2305169" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/jars/netlib-native_ref-win-x86_64-1.1-natives.jar">
@@ -172,9 +172,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-i686">
-			<revision name="1.1" status="release" pubdate="20131011231458" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="28">
+			<revision name="1.1" status="release" pubdate="20131011231458" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="28">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3739" time="72" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7531" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_ref-linux-i686" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="1489507" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/jars/netlib-native_ref-linux-i686-1.1-natives.jar">
@@ -184,9 +184,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-x86_64">
-			<revision name="1.1" status="release" pubdate="20131011231310" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="27">
+			<revision name="1.1" status="release" pubdate="20131011231310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="27">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3309" time="77" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7535" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_ref-linux-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="1749371" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/jars/netlib-native_ref-linux-x86_64-1.1-natives.jar">
@@ -196,9 +196,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64">
-			<revision name="1.1" status="release" pubdate="20131011223537" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="24">
+			<revision name="1.1" status="release" pubdate="20131011223537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="24">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3620" time="79" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7112" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1.2"/>
 				<artifacts>
 					<artifact name="netlib-native_ref-osx-x86_64" type="jar" ext="jar" extra-classifier="natives" status="no" details="" size="1839499" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/jars/netlib-native_ref-osx-x86_64-1.1-natives.jar">
@@ -208,9 +208,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="native_ref-java">
-			<revision name="1.1" status="release" pubdate="20131011223421" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+			<revision name="1.1" status="release" pubdate="20131011223421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="3973" time="79" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/native_ref-java/ivy-1.1.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/native_ref-java/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="7251" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/native_ref-java/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
 				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
 				<caller organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
@@ -360,9 +360,9 @@
 			</revision>
 		</module>
 		<module organisation="com.github.fommil.netlib" name="core">
-			<revision name="1.1.2" status="release" pubdate="20131126115411" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, master(compile)" position="11">
+			<revision name="1.1.2" status="release" pubdate="20131126115411" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master, master(compile)" position="11">
 				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="5427" time="86" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml" searched="true" original-local-location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<metadata-artifact status="no" details="" size="4887" time="0" location="/home/jovyan/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
 				<caller organisation="com.github.fommil.netlib" name="native_ref-java" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.1"/>
 				<caller organisation="org.scalanlp" name="breeze_2.11" conf="default, compile, runtime, master" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.13.2"/>
 				<caller organisation="com.github.fommil.netlib" name="all" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.1.2"/>

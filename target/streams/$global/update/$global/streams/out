@@ -361,20 +361,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#core;1.1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#core;1.1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/core/1.1.2/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#core;1.1.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#core;1.1.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom (1.1.2)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#core;1.1.2!core.pom(pom.original) (86ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#parent;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#parent;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#core;1.1.2 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#core;1.1.2 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalanlp#breeze_2.11;0.13.2->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalanlp#breeze_2.11;0.13.2->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalanlp#breeze_2.11;0.13.2->com.github.fommil.netlib#core;1.1.2 [compile->compile][0m
@@ -755,39 +743,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.pom(pom.original) (79ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_ref/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#native_ref;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#native_ref;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#native_ref;1.1!native_ref.pom(pom.original) (87ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#parent;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#parent;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_ref/1.1/jars/native_ref.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.sbt/preloaded/com.github.fommil.netlib/native_ref/1.1/jars/native_ref.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////home/jovyan/.sbt/preloaded/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/jnilibs/netlib-native_ref-osx-x86_64.jnilib[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jnilib[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -798,20 +755,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-java;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_ref-java;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_ref-java/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#native_ref-java;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#native_ref-java;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.pom(pom.original) (79ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#native_ref-java;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-java;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#native_ref-java;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#native_ref-java;1.1->com.github.fommil#jniloader;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -838,39 +783,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.pom(pom.original) (77ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_ref-xbuilds/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#native_ref-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#native_ref-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#native_ref-xbuilds;1.1!native_ref-xbuilds.pom(pom.original) (77ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_ref-xbuilds/1.1/jars/native_ref-xbuilds.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.sbt/preloaded/com.github.fommil.netlib/native_ref-xbuilds/1.1/jars/native_ref-xbuilds.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////home/jovyan/.sbt/preloaded/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/sos/netlib-native_ref-linux-x86_64.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)][0m
@@ -883,22 +797,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.pom(pom.original) (72ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-i686/1.1/sos/netlib-native_ref-linux-i686.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)][0m
@@ -911,22 +811,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.pom(pom.original) (75ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-x86_64/1.1/dlls/netlib-native_ref-win-x86_64.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)][0m
@@ -939,22 +825,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-win-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_ref-win-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.pom(pom.original) (74ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-win-i686/1.1/dlls/netlib-native_ref-win-i686.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-win-i686;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-win-i686;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-win-i686;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)][0m
@@ -967,22 +839,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.pom(pom.original) (77ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_ref-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-armhf/1.1/sos/netlib-native_ref-linux-armhf.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1->com.github.fommil.netlib#native_ref-java;1.1 [compile->compile(*)][0m
@@ -995,39 +853,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.pom(pom.original) (83ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_system/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#native_system;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#native_system;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#native_system;1.1!native_system.pom(pom.original) (83ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#parent;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#parent;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_system/1.1/jars/native_system.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.sbt/preloaded/com.github.fommil.netlib/native_system/1.1/jars/native_system.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////home/jovyan/.sbt/preloaded/com/github/fommil/netlib/native_system/1.1/native_system-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-osx-x86_64/1.1/jnilibs/netlib-native_system-osx-x86_64.jnilib[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.jnilib[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -1038,20 +865,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-java;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_system-java;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_system-java/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#native_system-java;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#native_system-java;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#native_system-java;1.1!native_system-java.pom(pom.original) (74ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#native_system-java;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-java;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#native_system-java;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#native_system-java;1.1->com.github.fommil#jniloader;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#native_system-java;1.1->com.github.fommil#jniloader;1.1 [compile->compile(*)][0m
@@ -1068,39 +883,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.pom(pom.original) (76ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_system-xbuilds/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#native_system-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#native_system-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#native_system-xbuilds;1.1!native_system-xbuilds.pom(pom.original) (75ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/native_system-xbuilds/1.1/jars/native_system-xbuilds.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.sbt/preloaded/com.github.fommil.netlib/native_system-xbuilds/1.1/jars/native_system-xbuilds.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried file:////home/jovyan/.sbt/preloaded/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-x86_64/1.1/sos/netlib-native_system-linux-x86_64.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->compile(*)][0m
@@ -1113,22 +897,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_system-linux-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.pom(pom.original) (73ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-i686/1.1/sos/netlib-native_system-linux-i686.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-i686;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-linux-i686;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-linux-i686;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->compile(*)][0m
@@ -1141,22 +911,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.pom(pom.original) (73ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system-xbuilds;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-xbuilds;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-linux-armhf/1.1/sos/netlib-native_system-linux-armhf.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.so[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->compile(*)][0m
@@ -1169,22 +925,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.pom(pom.original) (78ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-x86_64/1.1/dlls/netlib-native_system-win-x86_64.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->compile(*)][0m
@@ -1197,22 +939,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-win-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: com.github.fommil.netlib#netlib-native_system-win-i686;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for com.github.fommil.netlib#netlib-native_system-win-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for com.github.fommil.netlib#netlib-native_system-win-i686;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom (1.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.pom(pom.original) (75ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#native_system;1.1 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#native_system;1.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/jovyan/.ivy2/local/com.github.fommil.netlib/netlib-native_system-win-i686/1.1/dlls/netlib-native_system-win-i686.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.dll[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-win-i686;1.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-win-i686;1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.github.fommil.netlib#netlib-native_system-win-i686;1.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#all;1.1.2->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-win-i686;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->master(compile)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.github.fommil.netlib#netlib-native_system-win-i686;1.1->com.github.fommil.netlib#native_system-java;1.1 [compile->compile(*)][0m
@@ -6952,179 +6680,179 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze_2.11;0.13.2!breeze_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.1!macro-compat_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (76ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (75ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (84ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (80ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (89ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (91ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (85ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.8.2!junit.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-natives_2.11;0.13.2!breeze-natives_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.jtransforms#jtransforms;2.4.0!jtransforms.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (90ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.1!macro-compat_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-i686;1.1!netlib-native_system-linux-i686.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#native_system-java;1.1!native_system-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze_2.11;0.13.2!breeze_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/jovyan/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (80ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-macros_2.11;1.0.1!cats-macros_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#all;1.1.2!all.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (86ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-i686;1.1!netlib-native_system-win-i686.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire_2.11;0.13.0!spire_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (88ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (86ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-natives_2.11;0.13.2!breeze-natives_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.jtransforms#jtransforms;2.4.0!jtransforms.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/jovyan/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.3/ivy-2.3.0-sbt-1b57d3bbc08ecf671169fd548918da18c91f77be.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-macros_2.11;0.13.2!breeze-macros_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-macros_2.11;1.0.1!cats-macros_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-kernel_2.11;1.0.1!cats-kernel_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#machinist_2.11;0.6.2!machinist_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#native_ref-java;1.1!native_ref-java.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.11;2.3.2!shapeless_2.11.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-core_2.11;1.0.1!cats-core_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-kernel_2.11;1.0.1!cats-kernel_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil#jniloader;1.1!jniloader.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-effect_2.11;0.8!cats-effect_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalanlp#breeze-macros_2.11;0.13.2!breeze-macros_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#machinist_2.11;0.6.2!machinist_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] co.fs2#fs2-core_2.11;0.10.1!fs2-core_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1!netlib-native_ref-linux-i686.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (104ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (102ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] co.fs2#fs2-io_2.11;0.10.1!fs2-io_2.11.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (102ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (107ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#all;1.1.2!all.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/jovyan/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire_2.11;0.13.0!spire_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.11;2.3.2!shapeless_2.11.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1!netlib-native_system-win-x86_64.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1!netlib-native_system-linux-armhf.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.8.2!junit.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1!netlib-native_ref-win-x86_64.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1!netlib-native_ref-linux-armhf.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire-macros_2.11;0.13.0!spire-macros_2.11.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1!netlib-native_system-osx-x86_64.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#spire-macros_2.11;0.13.0!spire-macros_2.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_ref-win-i686;1.1!netlib-native_ref-win-i686.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1!netlib-native_system-linux-x86_64.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 5993ms :: artifacts dl 238ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 2258ms :: artifacts dl 226ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fs2cyborgpreprocessing_2.11;0.1-SNAPSHOT compile produced in /home/jovyan/work/Master thesis/scripts/fs2CyborgPreprocessing/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fs2cyborgpreprocessing_2.11;0.1-SNAPSHOT runtime produced in /home/jovyan/work/Master thesis/scripts/fs2CyborgPreprocessing/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fs2cyborgpreprocessing_2.11;0.1-SNAPSHOT test produced in /home/jovyan/work/Master thesis/scripts/fs2CyborgPreprocessing/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-test.xml[0m
@@ -7136,5 +6864,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fs2cyborgpreprocessing_2.11;0.1-SNAPSHOT plugin produced in /home/jovyan/work/Master thesis/scripts/fs2CyborgPreprocessing/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fs2cyborgpreprocessing_2.11;0.1-SNAPSHOT pom produced in /home/jovyan/work/Master thesis/scripts/fs2CyborgPreprocessing/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#fs2cyborgpreprocessing_2.11;0.1-SNAPSHOT scala-tool produced in /home/jovyan/work/Master thesis/scripts/fs2CyborgPreprocessing/target/scala-2.11/resolution-cache/reports/default-fs2cyborgpreprocessing_2.11-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (5993ms resolve - 238ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (2258ms resolve - 226ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

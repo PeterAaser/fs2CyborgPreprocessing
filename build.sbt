@@ -11,3 +11,6 @@ libraryDependencies ++= Seq(
   "org.scalanlp" %% "breeze-natives" % "0.13.2",
   "net.sourceforge.jtransforms" %  "jtransforms" % "2.4.0"
 )
+
+// smoothed z-score algorithm dependencies
+//libraryDependencies += "org.apache.commons" % "commons-math3" % "3.6.1"
