@@ -7,7 +7,7 @@ Real-time preprocessing of raw electrode voltage stream, using functional stream
 
 Opposed to Example 1, the preprocessed data in Example 2 is lightweight. One 7 minute raw electrode is estimated to take up 2.2 GB / 60 ~= 40 MB storage space. The preprocessed PSDs in Example 1 took 105.5 MB, while in Example 2 only 476.7 KB .
 
-Both examples rely on pre-computed noise tresholds for the selected electrode (from other code). It assumes 10000 Hz sampling rate on the raw electrode voltage stream.
+Both examples rely on pre-computed noise tresholds for the selected electrode (from other code). This code assumes 10000 Hz sampling rate on the raw electrode voltage stream.
 Computation can be speeded up, or throttled to real-time speed when reading data from a file. It can either save the preprocessed stream to a file, or send it further over internet via a TCP socket server.
 The code should be straight forward to implement in [SHODAN](https://github.com/PeterAaser/SHODAN) for real-time preprocessing
 in the Cyborg project.
