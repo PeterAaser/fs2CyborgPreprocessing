@@ -1,11 +1,16 @@
 # fs2CyborgPreprocessing
 Real-time preprocessing of raw electrode voltage stream, using functional streams 2 (fs2) in Scala.
-Assumes 10000 Hz sampling rate.
+
+* Example 1 converts an Int stream of pV of an electrode into noise reduced PSD stream. Heavy preprocessed signal.
+
+* Example 2 converts an Int stream of pV of an electrode into a 6 second sliding window count of action potentials in individual frequency bins from Power Spectral Densities (PSDs) in the range 296 - 3000 Hz . Lightweight preprocessed signal, good for PCA models.
+
+Both examples rely on pre-computed noise tresholds for the selected electrode (from other code). It assumes 10000 Hz sampling rate on the raw electrode voltage stream.
 Computation can be speeded up, or throttled to real-time speed when reading data from a file.
 The code should be straight forward to implement in [SHODAN](https://github.com/PeterAaser/SHODAN) for real-time preprocessing
 in the Cyborg project.
 
-Audacity, Python matplotlib and Unscrambler X was used for the plots in the example.
+Audacity, Python matplotlib and The Unscrambler X was used for the plots in the example.
 
 ## Dependencies:
 
@@ -29,17 +34,10 @@ cd fs2CyborgPreprocessing
 ```bash
 sbt run
 ```
-
-* Example 1 converts an Int stream of pV of an electrode into noise reduced PSD stream. Heavy preprocessed signal.
-
-* Example 2 converts an Int stream of pV of an electrode into a 6 second sliding window count of action potentials in individual frequency bins from Power Spectral Densities (PSDs) in the range 296 - 3000 Hz . Lightweight preprocessed signal, good for PCA models.
-
-Both examples rely on pre-computed noise tresholds for the selected electrode (from other code).
-
 ## Example 1: Complete noise reduced PSD stream.
 
 1. Select electrode 87 from MEA2 Dopey experiment #2 (2017-03-20), based on offline analysis in Python. Raw data is converted to audio for visualization (not this code).
-![#2_87_raw_audio_audacity](/img/#2_87_raw_audio_audacity.png)
+![#2 87 raw audio audacity](/img/#2_87_raw_audio_audacity.png)
 
 2. Extract noise segments, based on PC1 score from PCA of #2 raw data (not this code).
 ![#2_87_noise_segments_extracted.png](/img/#2_87_noise_segments_extracted.png)
