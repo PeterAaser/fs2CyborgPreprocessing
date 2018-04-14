@@ -71,7 +71,7 @@ sbt run
 4. Compute PSDs in intermediate steps. Line plot of a matrix of computed PSDs along the time axis is shown for completeness of the example.
 ![2 87 unfiltered PSDs](/img/2_87_unfiltered_PSDs.png)
 
-5. Use noise tresholds to count each time an amplitude in the raw PSD exceeds the trehold in a given bin. This is done in a sliding window of 6 seconds, with 80 % overlap. This results in a stream of aggregated counts each 1.2 seconds (0.83 Hz stream). From the following figures, it is seen that burst nr. 4 builds up a larger amplitude. This is the essence in this preprocessing. It is proposed that these effects will be more evident in more adult cultures when comparing APs over different freqiency bins.
+5. Use noise tresholds to count each time an amplitude in the raw PSD exceeds the trehold in a given bin. This is done in a sliding window of 6 seconds, with 80 % overlap. This results in a stream of aggregated counts each 1.2 seconds (0.83 Hz stream). From the following figures, it is seen that burst nr. 4 builds up a larger amplitude because it durated a little bit longer than most of the other bursts. This is the essence in this preprocessing. It is proposed that these effects will be more evident in more adult cultures when comparing APs over different freqiency bins.
 ![2 87 AP detection low pass filtered from PSDs](/img/2_87_AP_detection_from_PSDs_sliding_6s_windows.png)
 
 ![2 87 AP detection low pass filtered from PSDs 3D](/img/2_87_AP_detection_from_PSDs_sliding_6s_windows_3D.png)
