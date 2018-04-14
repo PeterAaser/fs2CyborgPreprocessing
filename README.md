@@ -12,7 +12,7 @@ Computation can be speeded up, or throttled to real-time speed when reading data
 The code should be straight forward to implement in [SHODAN](https://github.com/PeterAaser/SHODAN) for real-time preprocessing
 in the Cyborg project.
 
-Audacity, Python matplotlib and The Unscrambler X was used for the plots in the example.
+Audacity, Python matplotlib and The Unscrambler X was used for the plots in the examples.
 
 ## Dependencies:
 
