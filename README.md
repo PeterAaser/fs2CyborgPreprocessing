@@ -14,16 +14,19 @@ Audacity, Python matplotlib and Unscrambler X was used for the plots in the exam
 
 ## How to run:
 1. Make shure scala and scala build tool (sbt) is installed. Linux is preferred.
-2. ```bash
+2. Clone the repository
+```bash
 git clone https://github.com/ivartz/fs2CyborgPreprocessing
 ```
-3. ```bash
+3. Go to the folder
+```bash
 cd fs2CyborgPreprocessing
 ```
 3. Make shure all file paths are adjusted correctly in Main.scala .
    Also make shure the relevant preprocessing operations is selected in the code (commented/uncommented).
    The preprocessing steps Main.scala are well documented in comments. The first lines of the code are preprequisites for multithreading: Thread pool factory.
-4. ```bash
+4. Run the program
+```bash
 sbt run
 ```
 
