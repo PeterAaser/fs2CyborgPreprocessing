@@ -50,7 +50,7 @@ sbt run
 4. Compute PSDs in intermediate steps. Line plot of a matrix of computed PSDs along the time axis is shown for completeness of the example.
 ![2 87 unfiltered PSDs](/img/2_87_unfiltered_PSDs.png)
 
-5. Use noise tresholds to construct varying decibel attenuation gains over time. Max attenuation is fixed, and set to -48 db in this example. Smooth varying attenuation gains is enshured by using a 4. order IIR Butterworth filter with cutoff 6 Hz .
+5. Use noise tresholds to construct varying decibel attenuation gains over time. Max attenuation is fixed, and set to -48 db in this example. Smooth varying attenuation gains are enshured by using a 4. order IIR Butterworth filter with cutoff 6 Hz .
 ![2 87 AP detection low pass filtered from PSDs](/img/2_87_AP_detection_low_pass_filtered_from_PSDs.png)
 
 6. Attenuate the raw PSDs with the attenuation gains, resulting in a 40 Hz preprocessed PSD stream.
