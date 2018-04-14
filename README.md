@@ -3,7 +3,7 @@ Real-time preprocessing of raw electrode voltage stream, using functional stream
 
 * Example 1 converts an Int stream of pV of an electrode into noise reduced PSD stream in the range 296 - 3000 Hz . Heavy preprocessed signal.
 
-* Example 2 converts an Int stream of pV of an electrode into a 6 second sliding window count of action potentials in individual frequency bins from Power Spectral Densities (PSDs) in the range 296 - 3000 Hz . Lightweight preprocessed signal, good for PCA models.
+* Example 2 converts an Int stream of pV of an electrode into a 6 second 80 % overlapping sliding window count of action potentials in individual frequency bins from Power Spectral Densities (PSDs) in the range 296 - 3000 Hz . Lightweight preprocessed signal, good for PCA models.
 
 Both examples rely on pre-computed noise tresholds for the selected electrode (from other code). It assumes 10000 Hz sampling rate on the raw electrode voltage stream.
 Computation can be speeded up, or throttled to real-time speed when reading data from a file. It can either save the preprocessed stream to a file, or send it further over internet via a TCP socket server.
