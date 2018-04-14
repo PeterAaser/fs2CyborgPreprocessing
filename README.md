@@ -5,6 +5,8 @@ Real-time preprocessing of raw electrode voltage stream, using functional stream
 
 * Example 2 converts an Int stream of pV of an electrode into a 6 second 80 % overlapping sliding window count of action potentials in individual frequency bins from Power Spectral Densities (PSDs) in the range 296 - 3000 Hz . Lightweight preprocessed signal, good for PCA models.
 
+Opposed to Example 1, the preprocessed data in Example 2 is lightweight. One 7 minute raw electrode is estimated to take up 2.2 GB / 60 ~= 40 MB storage space. The preprocessed PSDs in Example 1 took 105.5 MB, while in Example 2 only 476.7 KB .
+
 Both examples rely on pre-computed noise tresholds for the selected electrode (from other code). It assumes 10000 Hz sampling rate on the raw electrode voltage stream.
 Computation can be speeded up, or throttled to real-time speed when reading data from a file. It can either save the preprocessed stream to a file, or send it further over internet via a TCP socket server.
 The code should be straight forward to implement in [SHODAN](https://github.com/PeterAaser/SHODAN) for real-time preprocessing
@@ -71,4 +73,6 @@ sbt run
 
 5. Use noise tresholds to count each time an amplitude in the raw PSD exceeds the trehold in a given bin. This is done in a sliding window of 6 seconds, with 80 % overlap. This results in a stream of aggregated counts each 1.2 seconds (0.83 Hz stream).
 ![2 87 AP detection low pass filtered from PSDs](/img/2_87_AP_detection_from_PSDs_sliding_6s_windows.png)
+
+![2 87 AP detection low pass filtered from PSDs 3D](/img/2_87_AP_detection_from_PSDs_sliding_6s_windows_3D.png)
 
