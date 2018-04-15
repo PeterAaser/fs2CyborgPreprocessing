@@ -102,7 +102,7 @@ object Main {
 //        import scala.collection.mutable.ArrayBuffer
 
         // Choose source file for streaming.
-        val fileToStream = Paths.get("/home/jovyan/work/Master thesis/data/2_no_header.csv")
+        val fileToStream = Paths.get("/home/jovyan/work/Master thesis/data/2_MEA2_raw.csv")
         // Close electrode ID from to stream.
         // , - separated columns fileToStream
         // should be ordered with increasing electrode ID.
@@ -112,8 +112,13 @@ object Main {
         // This mapping should be fixed, or at least agreed upon
         // before analysis.
         val selected_electrode_id = 50
+        // Name folder for experiment.
+        val experimentName = "2017-03-20T10-02-16 (#2)"
+        // Specify and create output file path
+        val outputFilePath = "/home/jovyan/work/Master thesis/data/Preprocessed/fs2/" + experimentName
+        new java.io.File(outputFilePath).mkdirs
         // Choose file path and name to save the preprocessed data
-        val outputFilePathAndName = "/home/jovyan/work/Master thesis/data/debugging.csv"
+        val outputFilePathAndName = outputFilePath + "/" + s"ID=$selected_electrode_id.csv"
         // Sampling rate in source file
         val Fs = 10000
         /// Port to send the processed data.
@@ -183,7 +188,7 @@ object Main {
         // "PSD tresholds from noise segment of an electrode (Python)".ipynb (Python)(script 2)
         // The last script (2) saves the final noise tresholds for the selected electrode
         // that is to be imported into this program from the path noiseTresholds87Path.
-        val noiseTresholds87Path = "/home/jovyan/work/Master thesis/data/#2_87_noise_segments/max_PSD.csv"
+        val noiseTresholds87Path = "/home/jovyan/work/Master thesis/scripts/fs2CyborgPreprocessing/noiseTresholds/MEA2 Dopey 2017-03-20 (#2)/Max noise PSDs/87 (ID=50) [pV]_max_PSD.csv"
         // Start and end index of streamed PSD
         // based on the selected freqiency range 296 - 3000 Hz .
         val startFreq = 296 / 8
@@ -639,7 +644,7 @@ object Main {
             println(s"set to stream electrode ID=$selected_electrode_id")
             val reader = io.file.readAll[F](fileToStream, 4096)
                 .through(text.utf8Decode)
-                .through(text.lines)
+                .through(text.lines).drop(7) // Drop 7 first lines because fileToStream comes directly from MCS DataManager ASCII export.
                 //.through(_.map{ csvLine => csvLine.split(",").map(_.toInt).toList.tail})
                 .through(_.map{ csvLine => csvLine.split(",").tail.apply(selected_electrode_id).toInt}) // split each text (String) line 
                                                                                      // to an array of 61 Chars representing the

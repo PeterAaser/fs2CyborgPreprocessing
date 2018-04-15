@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69ee7f96-bd1d-408a-93cd-10ee78240b36" name="Default" comment="" />
+    <list default="true" id="69ee7f96-bd1d-408a-93cd-10ee78240b36" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$6$$anonfun$apply$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$6$$anonfun$apply$19.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$chunkify$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$chunkify$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$countActionPotentialsInBins$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$countActionPotentialsInBins$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholds$1$1$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholds$1$1$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholds$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholds$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholdsAndLowPassFilter$1$1$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholdsAndLowPassFilter$1$1$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholdsAndLowPassFilter$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$detectActionPotentialsInBinsWithTresholdsAndLowPassFilter$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$flattenSeqSeqSlide$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$flattenSeqSeqSlide$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$1$$anonfun$apply$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$2$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$2$1$$anonfun$apply$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$2$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$3$1$$anonfun$apply$14.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$3$1$$anonfun$apply$14.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$3$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$3$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$4$1$$anonfun$apply$15.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$4$1$$anonfun$apply$15.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$4$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$4$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$1$$anonfun$apply$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$1$$anonfun$apply$18.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$go$5$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$noiseReduceBinsWithTresholds$1$1$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$noiseReduceBinsWithTresholds$1$1$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$noiseReduceBinsWithTresholds$1$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$noiseReduceBinsWithTresholds$1$1$$anonfun$apply$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$noiseReduceBinsWithTresholds$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$noiseReduceBinsWithTresholds$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$stridedSeqSeqSlide$1$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$vectorize$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$Main$$vectorize$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$22.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$23.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21$$anonfun$apply$23.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20$$anonfun$apply$21.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1$$anonfun$apply$20.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$computePowerSpectralDensity$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentials$1$1$$anonfun$apply$6$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentials$1$1$$anonfun$apply$6$$anonfun$apply$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentials$1$1$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentials$1$1$$anonfun$apply$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentials$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentials$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentialsAndLowPassFilter$1$1$$anonfun$apply$8$$anonfun$apply$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentialsAndLowPassFilter$1$1$$anonfun$apply$8$$anonfun$apply$9.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentialsAndLowPassFilter$1$1$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentialsAndLowPassFilter$1$1$$anonfun$apply$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentialsAndLowPassFilter$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectActionPotentialsAndLowPassFilter$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$10$$anonfun$apply$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$10$$anonfun$apply$11.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$10.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$12$$anonfun$apply$13.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$12$$anonfun$apply$13.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1$$anonfun$apply$12.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$detectAndSumActionPotentialsInSlidingWindow$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$noiseReduce$1$1$$anonfun$apply$4$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$noiseReduce$1$1$$anonfun$apply$4$$anonfun$apply$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$noiseReduce$1$1$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$noiseReduce$1$1$$anonfun$apply$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$noiseReduce$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$noiseReduce$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$1$$anonfun$apply$24.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$1$$anonfun$apply$24.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$sendStreamInTCP$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$stridedSlide$1$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1$$anonfun$apply$16$$anonfun$apply$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1$$anonfun$apply$16$$anonfun$apply$17.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1$$anonfun$apply$16.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1$$anonfun$apply$16.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$throttlerPipe$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$writeStreamToFile$1$1$$anonfun$apply$25.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$writeStreamToFile$1$1$$anonfun$apply$25.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$writeStreamToFile$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$$anonfun$writeStreamToFile$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Main$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/fs2cyborgpreprocessing_2.11-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/fs2cyborgpreprocessing_2.11-0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -19,7 +89,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,8 +103,8 @@
       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="192" column="38" lean-forward="false" selection-start-line="192" selection-start-column="36" selection-end-line="192" selection-end-column="38" />
+            <state relative-caret-position="-198">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#3766#3791#0" expanded="true" />
               </folding>
@@ -46,14 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>stridedSeqSeqSlideForLowPassFiltering</find>
-      <find>chunkify</find>
-      <find>case None</find>
-      <find>++</find>
-      <find>impli</find>
-      <find>lowpass</find>
-      <find>Some((segment</find>
-      <find>butterfilter</find>
       <find>slice</find>
       <find>treshold</find>
       <find>influence</find>
@@ -76,6 +138,14 @@
       <find>detectActionPotentialsInBinsWithTresholds</find>
       <find>detectAndSumActionPotentialsInSlidingWindow</find>
       <find>2017</find>
+      <find>fileToStream</find>
+      <find>writeStreamToFile</find>
+      <find>filePathAndName</find>
+      <find>java.io</find>
+      <find>selected_</find>
+      <find>experiment_name</find>
+      <find>outputFilePathAndName</find>
+      <find>drop</find>
     </findStrings>
     <replaceStrings>
       <replace>noiseReduceBinsWithTresholds</replace>
@@ -118,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,6 +217,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -301,38 +371,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1099" extended-state="6" />
+    <frame x="65" y="-4" width="1857" height="1107" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23342317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17623363" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17623363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -353,8 +423,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
+        <state relative-caret-position="3456">
           <caret line="192" column="38" lean-forward="false" selection-start-line="192" selection-start-column="36" selection-end-line="192" selection-end-column="38" />
+          <folding>
+            <element signature="e#3766#3791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="e#3766#3791#0" expanded="true" />
           </folding>
